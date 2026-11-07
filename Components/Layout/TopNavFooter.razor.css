@@ -1,0 +1,15 @@
+﻿.footerStyle{
+    background-color: var(--cf-theme-900);
+    scroll-padding:unset;
+    bottom:auto;
+}
+.footerStyle a{
+    color: var(--cf-theme-200);
+}
+.footerStyle a:hover{
+    color: var(--cf-theme-core);
+}
+.bi{
+    font-size: 1.5rem;
+    padding-inline-start: .5rem;
+}

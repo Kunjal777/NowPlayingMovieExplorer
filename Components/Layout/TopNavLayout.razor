@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+
+<div class=" d-flex flex-column h-100">
+<!--top nav bar-->
+   <TopNavMenu/>
+<!--main content area-->
+    <main class="flex-grow-1 ">
+    @Body
+</main>
+<!--footer-->
+<footer class="flex-shrink-0">
+    <TopNavFooter/>
+</footer>
+</div>
+
+@code {
+
+}
